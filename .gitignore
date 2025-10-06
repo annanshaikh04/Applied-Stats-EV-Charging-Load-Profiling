@@ -1,0 +1,21 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj.user/
+.Rprofile
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+
+# Data exclusions
+data/raw/*.zip
+data/raw/*.parquet
+data/raw/*_large.*
