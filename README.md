@@ -2,6 +2,18 @@
 
 Compute **per-station per-hour** usage from EV charging sessions, handling partial overlaps and producing clean hourly aggregates.
 
+<p align="left">
+  <img alt="R" src="https://img.shields.io/badge/R-4.3%2B-blue">
+  <img alt="Data" src="https://img.shields.io/badge/Data-EV%20Charging-informational">
+  <img alt="Reproducible" src="https://img.shields.io/badge/Reproducible-Yes-brightgreen">
+</p>
+
+## 🚀 Project Highlights
+- **Accurate hourly load profiling** for EV charging sessions with partial-overlap logic
+- **Time-zone safe parsing & data validation** (audit of timestamp & power quality)
+- **Reproducible pipeline** with path-safe scripts & bootstrap installer
+- Preserves your original project outputs in `data/processed/` for grading transparency
+
 ## Highlights
 - **Precise windowing:** proportional allocation of session power within each hour
 - **Robust parsing:** timezone-safe `ymd_hms(..., tz="UTC")` and numeric coercion
